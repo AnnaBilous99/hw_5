@@ -1,0 +1,36 @@
+.box {
+  text-align: center;
+  background-color: #eeeeee;
+}
+.centered {
+  display: inline-block;
+  margin: 0;
+}
+.chess-Board {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.chess-Board th {
+  padding: 20px;
+}
+.chess-Board td {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+.chess-Board .white {
+  background-color: #ffffff;
+}
+.chess-Board .black {
+  background-color: #000000;
+}
+img {
+  object-position: cover;
+  width: 75px;
+  height: 80px;
+}
+th {
+  font-size: 30px;
+}
